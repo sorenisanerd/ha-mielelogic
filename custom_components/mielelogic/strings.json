@@ -1,0 +1,24 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "MieleLogic Setup",
+        "description": "Enter your MieleLogic credentials. The laundry ID can be found in the URL when logged in at mielelogic.com.",
+        "data": {
+          "username": "Username",
+          "password": "Password",
+          "laundry_id": "Laundry ID",
+          "country": "Country code"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot connect to MieleLogic",
+      "invalid_auth": "Invalid username or password",
+      "invalid_laundry": "Laundry ID not found or not accessible"
+    },
+    "abort": {
+      "already_configured": "This laundry room is already configured"
+    }
+  }
+}
